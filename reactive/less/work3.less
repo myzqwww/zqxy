@@ -1,0 +1,289 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+  }
+a{
+    text-decoration: none;
+}
+//头部盒子
+.head_box{
+    width:100%;
+    height:250px;
+    background: url(../img/background.jpg)no-repeat;
+    text-align:center;
+    position: relative;
+    .header{
+//      border: 1px solid blue;
+        width: 100%;
+        position: absolute; 
+        top: 80px;
+         h1{
+        color: #fff;
+        font-size: 40px;
+        }
+    }
+   
+    .textbox{
+//      border: 1px solid red;
+        width: 100%;
+        height: 36px;
+        bottom: 30px;
+        margin: 0px auto;
+        .text_zt_box{
+            border: 1px solid red;
+            width: 120px;
+            margin-left: 3px;
+            display:inline-block;
+            margin-top: 180px;
+            padding: 8px 6px;
+             &:hover{
+                    background: rgba(0,0,0,0.8);
+            }
+            .text_zt{
+               color: #fff;
+               margin-top: 20px; 
+            }  
+        }  
+    }
+}
+//头部盒子结束
+//导航条部分
+.navbox{
+//  border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    
+    
+   
+    .nav_text_box{
+//      border: 1px solid red;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 20px;
+        display: none;
+        .nav_text_zt{
+               color: black;
+               margin-left: 30px;
+               &:hover{
+                   color:#f4645f;
+               }
+        }
+    } 
+    .fenlei{
+        border: 1px solid red;
+        width: 100%;
+        display: block;
+
+    }
+}
+ .erji{
+        width: 100%;
+        height: 300px;
+        background:#fff;
+//      overflow:hidden;
+   
+    .zt{
+        color: black;
+        margin-top: 15px;
+        &:hover{
+            color: #F4645F;
+        }
+    }
+    }
+//导航条部分结束
+//大框部分
+.article_big_box{
+//      border: 1px solid black;
+        height: 900px;
+        margin: 0px auto;
+        margin-top: 30px;
+        max-width: 1200px;
+    .article_left_box{
+//      border: 1px solid black;
+        width: 100%;
+        height: 754px;
+        margin-top: 30px;
+        background: #fff;
+        text-align: center;
+        float:left;
+        .head_article{
+            font-size: 25px; 
+            color: black;
+            margin-top:30px; 
+        }
+        .article_zt_box{
+//      border: 1px solid black;
+            width:28%;
+            height: 30px;
+            margin-left: 240px;
+        .zt1{
+            color: #b0b0b0;
+            float: left;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .zt2{
+            color: orangered;
+             font-size: 14px;
+        } 
+        }
+        .article_img{
+            margin-top: 20px;
+            width: 90%;
+            height: 450px;  
+        }
+        .article_foot{
+            width: 90%;
+            height: 50px;
+            margin-top: 25px;
+            margin-left: 30px;
+            font-size: 18px;
+        }
+        .redbox{
+//          border: 1px solid red;
+            width: 80px;
+            height: 30px;
+            margin-left: 30px;
+            margin-top: 30px;
+            background: #f4645f;
+            &:hover{
+                background:rgba(0,0,0,0.8) ;
+            }
+            .red_zt{
+                color: #fff;
+            }
+        }
+    }
+    .article_right_box{
+//      border: 1px solid black;
+        width: 405px;
+        height: 816px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 40px;
+       .article_right_box1{
+//         border: 1px solid red;
+            width: 404px;
+            height: 160px;
+            background: #fff;
+            position: relative;      
+           .box1_zt1{
+               font-size: 20px;
+               margin-top: 20px;
+               margin-left: 30px; 
+               border-bottom: 1px solid #ebebeb;
+                &:after{
+                    content: "";
+                    width: 90px;
+                    height: 1px;
+                    background: #f4645f;
+                    position: absolute;
+                    left:0;
+                    top: 28px;   
+                }
+            }
+           .box1_zt2{
+               color: #757575;
+               margin-top: 20px;
+               margin-left: 30px;
+               
+            }
+           .box1_zt3{
+               color:#f4645f ;
+               font-size: 13px;
+               margin-top: 20px;
+               margin-left: 30px;
+                
+            }
+        }
+       .article_right_box2{
+//         border: 1px solid red;
+            width: 404px;
+            height: 130px;
+            margin-top: 30px;
+            background: #fff;
+            position: relative;
+           .download_zt{
+               font-size: 20px;
+                margin-top: 20px;
+                margin-left: 30px;
+                border-bottom: 1px solid #ebebeb;
+                 &:after{
+                content: "";
+                width: 90px;
+                height: 1px;
+                background: #f4645f;
+                position: absolute;
+                left: 0;
+                top: 28px;
+               }  
+           }
+           .download_box{
+//           border: 1px solid black;
+               width: 350px;
+               padding: 10px 12px;
+               background:#f4645f;
+               margin-top: 20px;
+               margin-left: 30px;
+               text-align: center;
+               &:hover{
+                   background: rgba(0,0,0,0.8);
+               }
+              .download_text{
+                  color: #fff;
+              }   
+           }
+       }
+       .article_right_box3{
+//         border: 1px solid red;
+           width: 404px;
+           height: 460px;
+           margin-top: 30px;
+           background: #fff;
+           position: relative;
+           .text_title{
+               font-size: 20px;
+               margin-top: 20px;
+               margin-left: 30px;
+               border-bottom: 1px solid #ebebeb;
+                &:after{
+                content: "";
+                width: 90px;
+                height: 1px;
+                background: #f4645f;
+                position: absolute;
+                left: 0;
+                top: 28px;
+               }
+           }
+           .download_box_zt{
+               padding: 10px 12px;
+               background:#f4645f; 
+               width: 350px;
+               margin-top: 5px;
+               margin-left: 30px;
+               color:#fff;
+               text-align: center;
+                &:hover{
+                   background: rgba(0,0,0,0.8);
+               }   
+           }
+           .download_text_box{
+               margin-top: 20px;
+           }
+           
+       }        
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+                .hide{
+                    display: none;
+                }
+            }
